@@ -1,0 +1,9 @@
+<LookupObject name="LuBpaMeta">
+  <DataSource name="DsLuBpaMeta" />
+  <SimpleProperties>
+    <SimpleProperty id="true" name="pKey" type="DomPKey" dataSourceProperty="pKey" />
+    <SimpleProperty name="text" type="DomText" dataSourceProperty="text" />
+    <SimpleProperty name="maxPictures" type="DomSmallInteger" dataSourceProperty="maxPictures" />
+  </SimpleProperties>
+  <Methods></Methods>
+</LookupObject>

@@ -1,0 +1,20 @@
+<LookupObject name="LuCustomer">
+  <DataSource name="DsLuCustomer" />
+  <SimpleProperties>
+    <SimpleProperty id="true" name="pKey" type="DomPKey" dataSourceProperty="pKey" />
+    <SimpleProperty name="name" type="DomBpaName" dataSourceProperty="name" />
+    <SimpleProperty name="street" type="DomStreet" dataSourceProperty="street" />
+    <SimpleProperty name="houseNumber" type="DomHouseNumber" dataSourceProperty="houseNumber" />
+    <SimpleProperty name="zipCode" type="DomZipCode" dataSourceProperty="zipCode" />
+    <SimpleProperty name="city" type="DomCity" dataSourceProperty="city" />
+    <SimpleProperty name="state" type="DomText" dataSourceProperty="state" />
+    <SimpleProperty name="mainAddress" type="DomText" dataSourceProperty="mainAddress" />
+    <SimpleProperty name="latitude" type="DomDegree" dataSourceProperty="latitude" />
+    <SimpleProperty name="longitude" type="DomDegree" dataSourceProperty="longitude" />
+    <!-- <SimpleProperty name="maxPictures" type="DomSmallInteger" dataSourceProperty="maxPictures" /> -->
+    <SimpleProperty name="usrTimeEntryMetaPKey" type="DomPKey" dataSourceProperty="usrTimeEntryMetaPKey" />
+  </SimpleProperties>
+  <Methods>
+    <Method name="beforeLoadAsync" />
+  </Methods>
+</LookupObject>

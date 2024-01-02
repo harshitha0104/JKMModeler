@@ -1,0 +1,17 @@
+<ListObject name="LoBpaAttachment" generateLoadMethod="true" schemaVersion="1.1">
+  <DataSource name="DsLoBpaAttachment" />
+  <Item objectClass="LiBpaAttachment" />
+  <Methods>
+    <Method name="beforeSaveAsync" />
+    <Method name="afterSaveAsync" />
+    <Method name="afterLoadAsync" />
+    <Method name="beforeLoadAsync" />
+    <Method name="afterDoValidateAsync" />
+    <Method name="beforeDoValidateAsync" />
+    <Method name="MyaddItem" />
+    <Method name="MycapturePicture" />
+    <Method name="MygetCameraSettings" />
+    <Method name="MyshowMessageBox" />
+    <Method name="MygetPicturesCount" />
+  </Methods>
+</ListObject>
