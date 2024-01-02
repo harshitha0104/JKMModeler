@@ -94,7 +94,7 @@
                 <Resource target="text" type="Label" id="MapId" defaultLabel="Map" bindingMode="ONE_TIME" />
               </Bindings>
             </Tab>
-            <!--Account Harmonization: obsolete
+            <!--Account Harmonization: obsolete 2
             <Tab tabName="OpeningHours" backendSystem="both">
               <Bindings>
                 <Resource target="image" type="Image" id="ClockGrey24" defaultImage="ClockGrey24" bindingMode="ONE_TIME" />
